@@ -1,0 +1,422 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #101010;
+    color: white;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #000000;
+    padding: 10px 20px;
+}
+
+header img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    background: transparent;
+    border-radius: 50%;
+}
+
+header h2 {
+    color: #e50914;
+    margin-right: auto;
+    margin-left: 12px;
+    font-family: 'Irish Grover', sans-serif;
+    font-size: 34px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e50914;
+    text-decoration: underline;
+}
+
+header a img {
+    width: 35px;
+    height: 35px;
+    margin-left: 25px;
+}
+
+.banner {
+    background-image: url('../images/container.jpeg');
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.search-box {
+    margin-bottom: 30px;
+}
+
+.search-box input {
+    padding: 10px;
+    width: 250px;
+}
+
+.search-box button {
+    padding: 10px 20px;
+    background-color: #e50914;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.banner-content h1 {
+    margin-bottom: 10px;
+}
+
+.recommendation,
+.latest,
+.series,
+.movie {
+    padding: 25px 30px;
+}
+
+.recommendation h2,
+.latest h2,
+.series h2,
+.movie h2 {
+    margin-bottom: 20px;
+    border-left: 5px solid #e50914;
+    padding-left: 10px;
+}
+
+.poster-container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.poster-item {
+    width: 150px;
+    text-align: center;
+}
+
+.poster-item img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.poster-item h3 {
+    margin-top: 8px;
+    font-size: 16px;
+}
+
+.poster-item a {
+    text-decoration: none;
+    color: white;
+}
+
+.poster-item a:hover {
+    color: #e50914;
+}
+
+.page {
+    text-align: center;
+    padding: 20px;
+}
+
+.page button {
+    padding: 8px 15px;
+    margin: 5px;
+    background-color: #292929;
+    color: white;
+    border: 1px solid #e50914;
+    cursor: pointer;
+}
+
+.page button.active {
+    background-color: #e50914;
+}
+
+footer {
+    background-color: #000000;
+    padding: 25px;
+    text-align: center;
+}
+
+.credit{
+    display: flex;
+    align-items: center;
+    border: 1px solid white;
+    padding: 20px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+.credit-info h3{
+    color: #099fe5;
+}
+.credit-info p{
+    text-align: justify;
+}
+.credit img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+.credit-info{
+    margin-left: 20px;
+}
+.credit a{
+    text-decoration: none;
+    color: white;
+}
+.credit a:hover{
+    text-decoration: none;
+    color: #e50914;
+}
+.others{
+    display: flex;
+}
+.other{
+    align-items: center;
+    margin-top: 5%;
+    margin-bottom: 11%;;
+    padding: 20px;
+    margin-left: 22%;
+}
+.film, .plus{
+    margin-right: 40%;
+}
+.plus p{
+    text-align: center;
+}
+.film p{
+    text-align: center;
+}
+.other img{
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.other a{
+    text-decoration: none;
+    color: white;
+}
+.other a:hover{
+    text-decoration: underline;
+    color: #e50914;
+}
+.nonton h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.nonton iframe{
+    width: 760px;
+    height: 450px;
+    padding: 20px 30px;
+    margin-left: 10%;
+}
+.nonton .poster-item{
+    border: 1px solid;
+    background-color: #292929;
+    margin-left: 25%;
+    width: 250px;
+    padding-top: 20px;
+}
+.seriesD .poster-item{
+    border: 1px solid;
+    background-color: #292929;
+    margin-left: 42.2%;
+    width: 250px;
+    height: 477px;
+    padding-top: 20px;
+}
+.nonton-layout p{
+    padding-left: 80px;
+    padding-top: 10px;
+}
+.nonton-layout a{
+    text-decoration: none;
+    color: white;
+}
+.nonton-layout a:hover{
+    color: #e50914;
+    text-decoration: underline;
+}
+.nonton{
+    display: flex;
+}
+
+fieldset{
+    margin-top: 1%;
+}
+.seriesD{
+    display: flex;
+}
+.seriesD img{
+    margin-left: 5%;
+    width: 250px;
+    height: 250px;
+    margin-top: 1%;
+}
+.seriesL{
+    margin-left: 3%;
+    margin-top: 2%;
+}
+.seriesL h2{
+    font-size: 26px;
+}
+.seriesL a{
+    text-decoration: none;
+    color: white;
+}
+.seriesL a:hover{
+    color: #e50914;
+}
+.report{
+    max-width: 600px;
+    margin: 5% auto;
+    padding: 0 20px;
+}
+.form-row{
+    display: flex;
+    gap: 15px;
+    margin-bottom: 12px;
+}
+.form-row label{
+    width: 100px;
+}
+.form-row input, .form-row select, .form-row textarea{
+    flex: 1;
+    padding: 8px;
+    background-color: #d9d9d9;
+    color: #101010;
+}
+.form-btn{
+    text-align: center;
+}
+.form-btn input{
+    text-align: center;
+    color: white;
+    border: solid 5px #e50914;
+    cursor: pointer;
+    margin: 15px;
+    background-color: #e50914;
+    font-size: 20px;
+}
+@media (max-width: 600px) {
+    header {
+        flex-wrap: wrap;
+        gap: 15px;
+        padding: 10px;
+    }
+
+    header h2{
+        font-size: 20px;
+    }
+
+    nav ul {
+        gap: 12px;
+        flex-wrap: wrap;
+    }
+
+    .poster-container {
+        justify-content: center;
+    }
+
+    .poster-item {
+        width: 120px;
+    }
+
+    .poster-item img {
+        height: 170px;
+    }
+
+    .search-box input {
+        width: 65%;
+    }
+
+    .credit{
+        flex-direction: column;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 5%;
+    }
+
+    .form-row{
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    .form-row label{
+        width: auto;
+    }
+
+    .nonton{
+        flex-direction: column;
+    }
+
+    .nonton iframe{
+        width: 0;
+        padding: 0;
+        height: 220px;
+    }
+
+    .nonton-layout p{
+        padding-left: 0;
+    }
+
+    .nonton .poster-item{
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .seriesD{
+        flex-direction: column;
+        margin-left: 0;
+    }
+
+    .seriesD .poster-item{
+        margin-left: 0; 
+        width: 100%; 
+        height: auto;
+    }
+
+    .seriesD img{
+        margin: 0 auto;
+    }
+
+    .film .plus{
+        margin-right: 0;
+    }
+
+    .others, .other{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+
+    .banner{
+        background-size: cover;
+    }
+}
