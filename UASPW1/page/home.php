@@ -14,23 +14,23 @@
             <div class="poster-container">
                 <div class="poster-item">
                     <img src="images/poster.jpeg">
-                    <a href="utama.php?page=series1"><h3>Ultraman Gaia Episode 7</h3></a>
+                    <a href="index.php?page=series1"><h3>Ultraman Gaia Episode 7</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/tomjerry.jpeg">
-                    <a href="utama.php?page=series2"><h3>Tom & Jerry Episode 6</h3></a>
+                    <a href="index.php?page=series2"><h3>Tom & Jerry Episode 6</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/courage.jpeg">
-                    <a href="utama.php?page=series3"><h3>Courage the Cowardly Dog Episode 1</h3></a>
+                    <a href="index.php?page=series3"><h3>Courage the Cowardly Dog Episode 1</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/anime.jpeg">
-                    <a href="utama.php?page=movie1"><h3>Silent Voice</h3></a>
+                    <a href="index.php?page=movie1"><h3>Silent Voice</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/cosmosmovie.jpeg">
-                    <a href="utama.php?page=movie1"><h3>Ultraman Cosmos The First Contact</h3></a>
+                    <a href="index.php?page=movie1"><h3>Ultraman Cosmos The First Contact</h3></a>
                 </div>
             </div>
         </section>
@@ -40,7 +40,7 @@
             <div class="poster-container">
                 <div class="poster-item">
                     <img src="images/tomjerry.jpeg">
-                    <a href="utama.php?page=seriesdetail1"><h3>Tom & Jerry</h3></a>
+                    <a href="index.php?page=seriesdetail1"><h3>Tom & Jerry</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/oggy.jpeg">
@@ -48,7 +48,7 @@
                 </div>
                 <div class="poster-item">
                     <img src="images/courage.jpeg">
-                    <a href="utama.php?page=seriesdetail2"><h3>Courage the Cowardly Dog</h3></a>
+                    <a href="index.php?page=seriesdetail2"><h3>Courage the Cowardly Dog</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/adventure.jpeg">
@@ -62,6 +62,6 @@
         </section>
         <section class="page">
             <button class="active">1</button>
-            <a href="utama.php?page=home1"><button>2</button></a>
+            <a href="index.php?page=home1"><button>2</button></a>
         </section>
     </main>

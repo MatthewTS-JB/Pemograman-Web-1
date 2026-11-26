@@ -22,7 +22,7 @@
                 </div>
                 <div class="poster-item">
                     <img src="images/anime.jpeg">
-                    <a href="utama.php?page=movie1"><h3>Silent Voice</h3></a>
+                    <a href="index.php?page=movie1"><h3>Silent Voice</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/it.jpeg">
@@ -36,11 +36,11 @@
             <div class="poster-container">
                 <div class="poster-item">
                     <img src="images/cosmosmovie.jpeg">
-                    <a href="utama.php?page=movie2"><h3>Ultraman Cosmos The First Contact</h3></a>
+                    <a href="index.php?page=movie2"><h3>Ultraman Cosmos The First Contact</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/poster.jpeg">
-                    <a href="utama.php?page=seriesdetail"><h3>Ultraman Gaia</h3></a>
+                    <a href="index.php?page=seriesdetail"><h3>Ultraman Gaia</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/name.jpeg">
@@ -57,7 +57,7 @@
             </div>
         </section>
         <section class="page">
-            <a href="utama.php?page=home"><button>1</button></a>
+            <a href="index.php?page=home"><button>1</button></a>
             <button class="active">2</button>
         </section>
     </main>

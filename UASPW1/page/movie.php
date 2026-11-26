@@ -15,7 +15,7 @@
                 </div>
                 <div class="poster-item">
                     <img src="images/anime.jpeg">
-                    <a href="utama.php?page=movie1"><h3>Silent Voice</h3></a>
+                    <a href="index.php?page=movie1"><h3>Silent Voice</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/conjuring.jpeg">
@@ -34,7 +34,7 @@
                 </div>
                 <div class="poster-item">
                     <img src="images/cosmosmovie.jpeg">
-                    <a href="utama.php?page=movie2"><h3>Ultraman Cosmos The First Contact</h3></a>
+                    <a href="index.php?page=movie2"><h3>Ultraman Cosmos The First Contact</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/jose.jpeg">

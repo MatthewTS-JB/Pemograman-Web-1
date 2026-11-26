@@ -33,7 +33,7 @@ if (isset($_POST['judul'])) {
 
 <p><?php echo $pesan; ?></p>
 
-<form action="utama.php?page=report" method="post">
+<form action="index.php?page=report" method="post">
     <div class="report">
         <h2>Report</h2>
         

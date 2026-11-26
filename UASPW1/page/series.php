@@ -3,7 +3,7 @@
             <div class="poster-container">
                 <div class="poster-item">
                     <img src="images/poster.jpeg">
-                    <a href="utama.php?page=seriesdetail"><h3>Ultraman Gaia</h3></a>
+                    <a href="index.php?page=seriesdetail"><h3>Ultraman Gaia</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/oggy.jpeg">
@@ -11,11 +11,11 @@
                 </div>
                 <div class="poster-item">
                     <img src="images/tomjerry.jpeg">
-                    <a href="utama.php?page=seriesdetail1"><h3>Tom & Jerry</h3></a>
+                    <a href="index.php?page=seriesdetail1"><h3>Tom & Jerry</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/courage.jpeg">
-                    <a href="utama.php?page=seriesdetail2"><h3>Courage the Cowardly Dog</h3></a>
+                    <a href="index.php?page=seriesdetail2"><h3>Courage the Cowardly Dog</h3></a>
                 </div>
                 <div class="poster-item">
                     <img src="images/ben.jpeg">
